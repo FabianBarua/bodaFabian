@@ -260,8 +260,8 @@ const Layout = () => {
 
             </SectionContainer>
 
-            <section className="hidden lg:flex lg:w-full lg:justify-center">
-               <Carousel />
+            <section className="hidden lg:flex lg:w-full lg:justify-center pb-16">
+            {/* <Carousel /> */}
             </section>
 
 
