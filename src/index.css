@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --cream: #EBD6DE;
+  --gray-dark: #7a3232;
+  --gray-light: #fff;
+  --green: #7a3232;
+  --green-dark: #9D4040;
+  --mustard: #e9a4a4;
+  --red: #F8D8C6;
+  --white: #FFF;
+}
+
+/* #root{
+  width: 100vw;
+} */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #472121;
+    background-color: #ffffff;
+  }
+
+}
+

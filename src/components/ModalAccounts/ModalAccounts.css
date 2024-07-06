@@ -1,0 +1,11 @@
+@keyframes float {
+   50% { transform: translateY(-5px) translateX(5px) rotate(-3deg) scale(1.05); }
+}
+
+.jumping-element {
+   animation: float 3s ease-in-out alternate infinite; 
+}
+
+.jumping-element-reverse {
+   animation: float 4s ease-in-out alternate-reverse infinite; 
+}
