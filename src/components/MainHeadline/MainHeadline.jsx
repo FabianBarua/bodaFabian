@@ -14,7 +14,9 @@ const MainHeadline = () => {
             21 de septiembre 2024
          </h3>
          <div className=" text-center  ">
-         <h4 className="my-2 ">Invitacion valida para:</h4>
+        {
+         invited?.length > 0 && ( <h4 className="my-2 ">Invitacion valida para:</h4>)
+        }
          {
             invited?.map((name, index) => (
                <h4 key={index} className="my-2 text-balance w-full  max-w-60">{name}</h4>
