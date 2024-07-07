@@ -45,7 +45,7 @@ const Layout = () => {
 
 
          {/* 1° Portrait Section --------------------------------------- */}
-         <section className="relative flex flex-col items-center w-full h-[100vh] text-sm bg-cream pt-8 px-8 overflow-hidden z-20">
+         <section className="relative flex flex-col items-center w-full h-[85dvh] text-sm bg-cream pt-8 px-8 overflow-hidden z-20">
             <Spinner />
             <Portrait />
             <MainHeadline />
@@ -147,9 +147,12 @@ const Layout = () => {
                   <div className="flex flex-col items-center">
                      <InfoSection
                         header={'¿Qué me pongo?'}
-                        subtitle={'Dresscode: Vestimenta elegante. (De preferencia utilizar colores primaverales).'}
+                        subtitle={`
+                           Codigo de vestimenta:
+                           `}
                         lineColorCode={'border-mustard'}
                      >
+                        Elegante (De preferencia utilizar colores primaverales).
                      </InfoSection>
                   </div>
                </SectionContainerElement>
