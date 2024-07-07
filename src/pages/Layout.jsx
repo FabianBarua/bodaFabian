@@ -156,7 +156,7 @@ const Layout = () => {
                </SectionContainerElement>
 
                {/* Music section ---------- */}
-               <SectionContainerElement>
+               {/* <SectionContainerElement>
                   <ImageComponent
                      src={"/assets/images/dance-icon.png"}
                      alt={"Icono baile"}
@@ -173,7 +173,7 @@ const Layout = () => {
                      colorCode={"bg-mustard"}
                      url={'spotify'}
                   />
-               </SectionContainerElement>
+               </SectionContainerElement> */}
 
                {/* Confirmation section (only Desktop) ---------- */}
                <SectionContainerElement mobileView={ 'off' }>

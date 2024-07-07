@@ -91,11 +91,11 @@ const ModalAccounts = () => {
                   <div className='flex items-center gap-2 flex-wrap'>
                      <span className='italic'>CUENTA :</span>
                      <div className='flex items-center gap-2'>
-                        <span className='font-semibold'> xxxxxxxxx </span>
+                        <span className='font-semibold'> 619434172 </span>
                         <button
                            className="group relative inline-flex " >
                            <img 
-                              onClick={ () => copyToClipboard('XXXXXXXXXXXXXX') } 
+                              onClick={ () => copyToClipboard('619434172') } 
                               src="./assets/images/copy-icon.png" 
                               alt=" Boton copiar " 
                               title='Copiar' 
