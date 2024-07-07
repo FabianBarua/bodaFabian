@@ -1,7 +1,6 @@
 import Arrows from "../components/Arrows/Arrows"
 import Button from "../components/Button/Button"
 import ButtonGift from "../components/ButtonGift/ButtonGift"
-import Carousel from "../components/Carousel/Carousel"
 import Countdown from "../components/Countdown/Countdown"
 import CurvedBottomSection from "../components/CurvedBottomSection/CurvedBottomSection"
 import CurvedTopSection from "../components/CurvedTopSection/CurvedSection"
