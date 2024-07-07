@@ -47,6 +47,10 @@ const ModalAccounts = () => {
             {/* Patagonia Bank Section */}
             <article className="flex flex-col gap-2 w-full h-full
             lg:w-[450px]">
+               <p className=" text-center text-balance my-4">
+                  El regalo perfecto es tu presencia, pero <strong>si querés hacer una transferencia</strong>, te dejamos los datos de nuestra cuenta.
+                  
+               </p>
                <section className="flex items-center gap-2">
                   <img src="./assets/images/green-arrows-icon.png" alt="" className='h-6'/>
                   <h2 className='font-semibold text-base'>Ueno Bank</h2>

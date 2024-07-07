@@ -19,7 +19,9 @@ const ModalMusic = ()=>{
     if (playMusic) {
       const audio = new Audio("/music.mp3")
       audio.play()
-      navigate('/invitation')
+      // navigate('/invitation')
+      // mantener parametros
+      navigate({pathname: '/invitation', search: window.location.search})
     }
   }, [playMusic])
 
