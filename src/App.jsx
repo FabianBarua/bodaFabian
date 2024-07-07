@@ -33,7 +33,7 @@ const ModalMusic = ()=>{
   return(
     <>
               <div className=" fixed h-dvh bg-cream  w-dvw flex flex-col justify-center items-center">
-          <section className="z-50 flex flex-col items-center gap-5">
+          <section className="z-50 pointer-events-none flex flex-col items-center gap-5">
             <img src="/assets/images/header-title-mobile.png" alt="" className="w-52 mb-2 lg:w-64" />
             <img src="/assets/images/names.png" alt="" className="w-72 lg:w-96"/>
             <hr className="w-44 border-1 border-mustard " />
